@@ -1,4 +1,4 @@
-package quartz;
+package quartz.core;
 
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
@@ -7,7 +7,7 @@ import static org.quartz.JobBuilder.*;
 import static org.quartz.TriggerBuilder.*;
 import static org.quartz.SimpleScheduleBuilder.*;
 
-public class QuartzTest {
+public class QuartzManager {
 
     public static void main(String[] args) {
 
