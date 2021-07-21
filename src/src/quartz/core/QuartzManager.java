@@ -15,7 +15,7 @@ public class QuartzManager {
 
     public static void main(String[] args) {
 
-        try {      	
+        try {
         	// define the job and tie it to our HelloJob class
         	  JobDetail job = JobBuilder.newJob(Hello.class)
         			  					.withIdentity("Hello", "group1")
